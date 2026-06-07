@@ -37,3 +37,10 @@ The empirical analysis is based on a local CSV version of the French motor third
 For the purposes of this thesis, the original dataset is transformed into a **synthetic enriched fairness setting**. This means that the base insurance dataset is real, but the protected attribute and fairness structure used in the empirical analysis are synthetically constructed for methodological illustration.
 
 The repository does not necessarily include the original local CSV file. If data-sharing restrictions apply, the repository contains the code and documentation needed to understand and reproduce the workflow, but not the raw dataset itself.
+
+### Data notes
+- Base dataset: `freMTPL2freq`
+- Format used in the thesis: local CSV version
+- Protected attribute: synthetic
+- Fairness setting: synthetic enriched fairness setting
+- Raw dataset in repository: not included if sharing restrictions apply
