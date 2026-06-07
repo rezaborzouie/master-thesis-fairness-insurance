@@ -1,0 +1,4 @@
+fairlearn
+sweetviz
+scikit-plot
+scipy
