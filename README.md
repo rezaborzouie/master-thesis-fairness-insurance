@@ -34,6 +34,6 @@ The outputs in the thesis are predicted claim probabilities / pricing-relevant r
 
 The empirical analysis is based on a local CSV version of the French motor third-party liability frequency dataset `freMTPL2freq`, which is widely used in actuarial and insurance-pricing research. The dataset is documented in the `CASdatasets` collection and is also available through public mirrors such as Kaggle. The original source is a French motor third-party liability portfolio and provides a realistic empirical base for an insurance-pricing application.
 
-The thesis does **not** use an observed real-world protected attribute from the original dataset. Instead, the fairness analysis is conducted in a **synthetic enriched fairness setting** constructed on top of the original motor-insurance dataset.
+For the purposes of this thesis, the original dataset is transformed into a **synthetic enriched fairness setting**. This means that the base insurance dataset is real, but the protected attribute and fairness structure used in the empirical analysis are synthetically constructed for methodological illustration.
 
-If the original local CSV file is not redistributed through this repository, this repository provides the code and documentation only, not the raw data file itself.
+The repository does not necessarily include the original local CSV file. If data-sharing restrictions apply, the repository contains the code and documentation needed to understand and reproduce the workflow, but not the raw dataset itself.
